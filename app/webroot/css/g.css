@@ -1,0 +1,218 @@
+body{
+  font-family:YuGothic,'游ゴシック',"ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
+  background-color: #ffffff;
+  color:#333333;
+  font-weight:600;
+}
+header, footer{
+  margin: 0px;
+  padding: 0px;
+  background-color: #44A6D0;
+  /* background-color: #252a2e; */
+  color: #eeeeee;
+}
+footer{
+  font-size: 80%;
+  text-align: center;
+}
+h1{
+  margin:10px;
+  font-weight: bold;
+  font-size: 120%;
+  padding:5px;
+}
+h1 a{
+  color: #eeeeee;
+}
+h3{
+  background-color: #44A6D0;
+  color: #eeeeee;
+}
+div{
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+nav{
+  margin:5px 20px;
+  font-size: 80%;
+}
+nav a{
+  color: #cccccc;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+  color:#0a5170;
+}
+a:hover{
+  text-decoration: underline;
+  color:#f14b0c;
+}
+form label{
+  display: block;
+  width: 80px;
+  float: left;
+  /* margin-bottom: 10px; */
+}
+input textarea{
+  margin : 10px 0px 0px 10px ;
+}
+table#threadList{
+  border-right: 0px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table#threadList th{
+  font-size: 80%;
+  border-bottom: 2px solid #0a5170;
+  padding:5px;
+  margin-right: 10px;
+}
+table#threadList td{
+  font-size: 80%;
+  border-bottom: 1px solid #0a5170;
+  padding:5px;
+  margin-right: 10px;
+}
+th.right, td.right{
+  text-align: right;
+}
+th.center, td.center{
+  text-align: center;
+}
+th.left, td.left{
+  text-align: left;
+}
+th.no {width:30px;}
+th.close {width:40px;}
+th.resCount {width:120px;}
+th.threadName {width:300px;}
+#menu{
+  /* background-color: cyan; */
+  background-color: #0a5170;
+  color:#eeeeee;
+}
+#container{
+  margin-left: 20px;
+  padding:0px;
+  border: 0px;
+}
+#container:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#contents{
+  /* background-color: #44A6D0; */
+  float: left;
+  width:75%;
+}
+#sidebar{
+  float: right;
+  /* width:25%; */
+}
+#pagenation{
+  text-align: center;
+  font-size: 80%;
+  margin: 10px 20px;
+}
+#thread,.res{
+  border: 1px solid #44A6D0;
+  margin: 5px;
+}
+#threadTitle,.resTitle{
+  font-size: 100%;
+  background-color: #44A6D0;
+  color:#eeeeee;
+  margin:5px;
+  padding-left: 5px;
+}
+#threadAuther,.resAuther{
+  font-size: 70%;
+  margin:5px;
+  color:#0a5170;
+}
+#threadText,.resText{
+  font-size: 80%;
+  margin:10px;
+}
+#commentForm{
+  padding:5px 10px 5px;
+  border: 1px solid #888888;
+  margin: 5px;
+  background-color: #cccccc;
+}
+#commentForm div{
+  font-size: 80%;
+}
+#resTextArea{
+  width:90%;
+}
+#resSubmit{
+  margin: 10px;
+}
+#ThreadAddForm, #ReViewForm{
+  margin: 10px;
+}
+#ThreadAddForm input, #ReViewForm input{
+  margin-bottom: 20px;
+}
+#kiyaku{
+  font-size: 80%;
+}
+#addThreadButton{
+  height:30px;
+}
+.res{
+  margin-left:20px;
+}
+.c{
+  /*border: 1px solid #44A6D0;*/
+  height:200px;
+  width:200px;
+  padding:10px;
+  margin:10px;
+}
+.d{
+  /* border: 1px solid #44A6D0;
+  height:200px; */
+  padding:10px;
+  margin:10px;
+}
+.current,.disabled{
+  margin: 10px;
+}
+#kiyaku, .kiyaku {
+  margin-left:20px;
+}
+dl.search2{
+	position:relative;
+}
+dl.search2 dt{
+	padding:0px;
+	background-color:#fff;
+	border:1px solid #aaa;
+  width:300px;
+}
+dl.search2 dt input{
+	width:100%;
+	height:10px;
+	background:none;
+	border:none;
+}
+dl.search2 dd{
+	position:absolute;
+	top:0;
+	left:260px;
+}
+dl.search2 dd input{
+	display:block;
+	width:80px;
+	height:28px;
+	color:#fff;
+	text-align:center;
+	background-color:#f66;
+	border:1px solid #c66;
+}
